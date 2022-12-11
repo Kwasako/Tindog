@@ -1,0 +1,77 @@
+/* Vector */
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+#dog .dog-img{
+     width: 100%;
+}
+
+#dog{
+    position: relative;
+    width: 100%;
+}
+
+.vector{
+    display:flex;
+    justify-content: space-between; 
+    padding-bottom: 1.2em;  
+}
+
+.icon{
+  width: 50px;
+  height: 30px;
+}
+
+.btn{
+    padding-top: 10px;
+    text-align: center;
+    background-color: #F6F7FB;
+}
+
+.btn-img{
+    border-radius: 50%;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    padding-left:0.9em;
+    padding-right: 0.9em;
+    border:none;
+    margin-left: 1.8em;
+    background-color: #fff;
+}
+
+.dog-img{
+    border-radius: 0.8em;
+
+}
+
+.cross:hover{
+    background-color: #FFC9B9;
+}
+.heart:hover{
+    background-color: #D1FFCD;
+}
+
+.badge{
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 20px;
+    top: 90px;
+
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+
+.dog.bio{
+    color:#F6fff1
+}
+.dog-info{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
